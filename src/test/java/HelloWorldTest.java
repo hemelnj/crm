@@ -49,4 +49,9 @@ public class HelloWorldTest {
     void sevenTest() {
         System.out.println("fifth Test");
     }
+    
+    @Test
+    void eightTest() {
+        System.out.println("eight Test");
+    }
 }
