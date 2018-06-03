@@ -22,10 +22,10 @@ public class HelloWorldTest {
         System.out.println("First test");
     }
     
-//    @Test
-//    void secondTest() {
-//        System.out.println("Second  test");
-//        Assert.fail("Exception expected");
-//    }
+    @Test
+    void secondTest() {
+        System.out.println("Second  test");
+        Assert.fail("Exception expected");
+    }
    
 }
