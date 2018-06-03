@@ -24,34 +24,8 @@ public class HelloWorldTest {
     
     @Test
     void secondTest() {
-        System.out.println("second test");
+        System.out.println("Second  test");
+        Assert.fail("Exception expected");
     }
-    
-    @Test
-    void thirdTest() {
-        System.out.println("third test");
-    }
-    @Test
-    void fourthTest() {
-        System.out.println("fourth Test");
-    }
-    @Test
-    void fifthTest() {
-        System.out.println("fifth Test");
-    }
-    
-    @Test
-    void sixthTest() {
-        System.out.println("fifth Test");
-    }
-    
-    @Test
-    void sevenTest() {
-        System.out.println("fifth Test");
-    }
-    
-    @Test
-    void eightTest() {
-        System.out.println("eight Test");
-    }
+   
 }
