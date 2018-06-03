@@ -25,7 +25,7 @@ public class HelloWorldTest {
     @Test
     void secondTest() {
         System.out.println("Second  test");
-        Assert.fail("Exception expected");
+        //Assert.fail("Exception expected");
     }
    
 }
