@@ -27,5 +27,10 @@ public class HelloWorldTest {
         System.out.println("Second  test");
         //Assert.fail("Exception expected");
     }
+    
+    @Test
+    void thirdTest() {
+        System.out.println("Third test");
+    }
    
 }
