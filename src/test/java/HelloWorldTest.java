@@ -25,12 +25,18 @@ public class HelloWorldTest {
     @Test
     void secondTest() {
         System.out.println("Second  test");
-        //Assert.fail("Exception expected");
+       // Assert.fail("Exception expected");
     }
     
     @Test
     void thirdTest() {
         System.out.println("Third test");
+    }
+    
+     @Test
+    void fourthTest() {
+        System.out.println("Four  test");
+        Assert.fail("Exception expected");
     }
    
 }
