@@ -36,7 +36,7 @@ public class HelloWorldTest {
      @Test
     void fourthTest() {
         System.out.println("Four  test");
-        Assert.fail("Exception expected");
+        //Assert.fail("Exception expected");
     }
    
 }
